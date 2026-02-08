@@ -25,6 +25,16 @@
               "lat": 35.6713,
               "lng": 139.7651,
               "tags": ["counter seating"]
+            },
+            {
+              "name": "Yakumo (八雲)",
+              "category": "restaurants",
+              "area": "Ikejiri-Ohashi, Meguro",
+              "description": "One of Tokyo's best wonton ramen spots. Famous for white (shio) and black (shoyu) dashi wontonmen — delicate, refined broth with plump handmade wontons. Cash only, vending machine ordering. Expect a wait.",
+              "link": "https://tabelog.com/en/tokyo/A1317/A131705/13204333/",
+              "lat": 35.6508,
+              "lng": 139.6847,
+              "tags": ["counter seating"]
             }
           ]
         }
