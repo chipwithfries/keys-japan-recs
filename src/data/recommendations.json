@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Fuunji (風雲児)",
+              "category": "restaurants",
+              "area": "Shinjuku",
+              "description": "One of Tokyo's best tsukemen — rich, intense chicken and fish dipping broth with thick noodles. Always a line but it moves fast. Counter seating, vending machine ordering.",
+              "link": null,
+              "lat": 35.6896,
+              "lng": 139.6985,
+              "tags": ["counter seating"]
+            },
+            {
               "name": "Mugi to Olive (むぎとオリーブ)",
               "category": "restaurants",
               "area": "Ginza",
