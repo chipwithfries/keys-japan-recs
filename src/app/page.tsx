@@ -1,6 +1,7 @@
 'use client'
 
-import { useState, useMemo, lazy, Suspense } from 'react'
+import { useState, useMemo } from 'react'
+import dynamic from 'next/dynamic'
 import rawData from '@/data/recommendations.json'
 import type { Recommendation } from '@/components/types'
 
@@ -16,7 +17,7 @@ interface Region {
 
 const data = rawData as { regions: Region[] }
 
-const MapView = lazy(() => import('@/components/MapView'))
+const MapView = dynamic(() => import('@/components/MapView'), { ssr: false, loading: () => <div className="map-loading">Loading map…</div> })
 
 const categoryIcons: Record<string, string> = {
   restaurants: '🍜',
@@ -167,9 +168,7 @@ export default function Home() {
           )}
 
           {view === 'map' ? (
-            <Suspense fallback={<div className="map-loading">Loading map…</div>}>
-              <MapView recommendations={allFilteredRecs} />
-            </Suspense>
+            <MapView recommendations={allFilteredRecs} />
           ) : noResults ? (
             <div className="empty-state small">
               <p>No matches for the current filters.</p>
