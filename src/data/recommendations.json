@@ -39,21 +39,11 @@
             {
               "name": "Butagumi (豚組)",
               "category": "restaurants",
-              "area": "Nishi-Azabu",
-              "description": "Hallowed tonkatsu spot in a quaint residential house — choose your cut and prefecture's brand-name pork. Michelin Bib Gourmand. One of the best tonkatsu experiences in Tokyo.",
+              "area": "Nishi-Azabu (main) / Roppongi (Butagumi Dining)",
+              "description": "Hallowed tonkatsu spot — choose your cut and prefecture's brand-name pork. Michelin Bib Gourmand. The main store is in a quaint Nishi-Azabu house; the Roppongi Dining sibling is more casual with a great lunch deal.",
               "link": null,
               "lat": 35.6588,
               "lng": 139.7260,
-              "tags": []
-            },
-            {
-              "name": "Butagumi Shokudo (豚組食堂)",
-              "category": "restaurants",
-              "area": "Roppongi",
-              "description": "Casual sibling of Butagumi — same incredible pork, more accessible setting. The lunch deal (until 3:15pm) is exceptional value. Popular with international diners.",
-              "link": null,
-              "lat": 35.6627,
-              "lng": 139.7310,
               "tags": []
             },
             {
