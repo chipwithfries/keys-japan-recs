@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Imakatsu (イマカツ)",
+              "category": "restaurants",
+              "area": "Roppongi",
+              "description": "The best chicken katsu in Tokyo. Their sasami katsu (chicken fillet) from Iwate Prefecture contract farm will change how you think about chicken breast — impossibly juicy and tender. Hidden on a small side street near Roppongi station.",
+              "link": "https://tabelog.com/en/tokyo/A1307/A130701/13096723/",
+              "lat": 35.6632,
+              "lng": 139.7311,
+              "tags": []
+            },
+            {
               "name": "Butagumi (豚組)",
               "category": "restaurants",
               "area": "Nishi-Azabu",
