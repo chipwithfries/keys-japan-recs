@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Blacows",
+              "category": "restaurants",
+              "area": "Ebisu",
+              "description": "Premium wagyu burgers — one of the most popular burger joints in Tokyo. Rich, juicy patties with quality toppings. Always busy for a reason.",
+              "link": null,
+              "lat": 35.6468,
+              "lng": 139.7107,
+              "tags": []
+            },
+            {
               "name": "Aldebaran",
               "category": "restaurants",
               "area": "Azabu-Juban",
