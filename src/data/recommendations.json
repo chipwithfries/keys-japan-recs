@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "CRISP SALAD WORKS",
+              "category": "restaurants",
+              "area": "Multiple locations (Roppongi Midtown, Daikanyama, Mita, and more)",
+              "description": "NYC-style chopped salads in Tokyo — ~30 toppings to customize your bowl. Fresh, high-quality ingredients. Great healthy option when you need a break from all the ramen and katsu.",
+              "link": null,
+              "lat": 35.6660,
+              "lng": 139.7310,
+              "tags": ["veg options"]
+            },
+            {
               "name": "Blacows",
               "category": "restaurants",
               "area": "Ebisu",
