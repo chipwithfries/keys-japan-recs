@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "KNOCK Cucina Buona Italiana",
+              "category": "restaurants",
+              "area": "Roppongi (Hills and Midtown locations)",
+              "description": "Casual Italian done right — good pasta, pizza, and wine in a relaxed setting. Locations in both Roppongi Hills and Tokyo Midtown. Easy, reliable pick.",
+              "link": null,
+              "lat": 35.6659,
+              "lng": 139.7306,
+              "tags": ["family friendly"]
+            },
+            {
               "name": "CRISP SALAD WORKS",
               "category": "restaurants",
               "area": "Multiple locations (Roppongi Midtown, Daikanyama, Mita, and more)",
