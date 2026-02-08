@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Mugi to Olive (むぎとオリーブ)",
+              "category": "restaurants",
+              "area": "Ginza",
+              "description": "Michelin Bib Gourmand ramen — famous for their Triple Soba made with chicken, dried sardines, and hamaguri clam broth. Refined, light, and deeply flavorful. Behind Ginza Six. Expect a queue at lunch.",
+              "link": "https://trulytokyo.com/mugi-to-olive/",
+              "lat": 35.6687,
+              "lng": 139.7643,
+              "tags": ["counter seating"]
+            },
+            {
               "name": "Yakumo (八雲)",
               "category": "restaurants",
               "area": "Ikejiri-Ohashi, Meguro",
