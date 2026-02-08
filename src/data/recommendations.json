@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Maisen (まい泉)",
+              "category": "restaurants",
+              "area": "Omotesando, Jingumae",
+              "description": "Iconic tonkatsu since 1965 — housed in a converted bathhouse near Omotesando Station. Huge space so easy to eat without a long wait. Multiple locations across Tokyo.",
+              "link": "https://tabelog.com/en/tokyo/A1306/A130602/13001850/",
+              "lat": 35.6676,
+              "lng": 139.7082,
+              "tags": ["family friendly"]
+            },
+            {
               "name": "Nemuro Hanamaru (根室花まる)",
               "category": "restaurants",
               "area": "Ginza",
