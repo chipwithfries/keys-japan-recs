@@ -15,6 +15,16 @@
               "lat": 35.6953,
               "lng": 139.7631,
               "tags": ["counter seating"]
+            },
+            {
+              "name": "SHIBIRE NOODLES Rousokuya (蝋燭屋)",
+              "category": "restaurants",
+              "area": "Multiple locations (Ginza honten, Omotesando Hills, Kyobashi Edogran)",
+              "description": "Famous mapo tofu noodles (mabo men) — Sichuan peppercorn-heavy, tongue-numbing, deeply addictive. Also serves tantanmen and hot & sour noodles. Expect a line at lunch, especially the Ginza flagship.",
+              "link": "https://tabelog.com/en/tokyo/A1301/A130101/13214085/",
+              "lat": 35.6713,
+              "lng": 139.7651,
+              "tags": ["counter seating"]
             }
           ]
         }
