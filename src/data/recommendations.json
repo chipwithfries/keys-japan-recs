@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Nemuro Hanamaru (根室花まる)",
+              "category": "restaurants",
+              "area": "Ginza",
+              "description": "One of Tokyo's best conveyor belt sushi spots — Hokkaido-fresh fish at incredible prices. On the 10th floor. Pro tip: get in line at the elevator an hour before opening or you'll be waiting forever.",
+              "link": "https://tabelog.com/en/tokyo/A1301/A130101/13193771/",
+              "lat": 35.6713,
+              "lng": 139.7649,
+              "tags": []
+            },
+            {
               "name": "Imakatsu (イマカツ)",
               "category": "restaurants",
               "area": "Roppongi (honten) / Ginza",
