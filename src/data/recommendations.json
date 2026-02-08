@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Shin Udon (慎)",
+              "category": "restaurants",
+              "area": "Yoyogi, Shinjuku",
+              "description": "World-famous udon brasserie — the viral carbonara udon is a must, but everything here is incredible. Handmade noodles with perfect chew. Featured in Bon Appétit. Expect a line.",
+              "link": null,
+              "lat": 35.6836,
+              "lng": 139.7021,
+              "tags": ["counter seating"]
+            },
+            {
               "name": "Fuunji (風雲児)",
               "category": "restaurants",
               "area": "Shinjuku",
