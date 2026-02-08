@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Massif",
+              "category": "restaurants",
+              "area": "Ikejiri-Ohashi",
+              "description": "Restaurant, café, and bar at Ohashi Kaikan — by the team behind Parklet Bakery. Amazing pastries, especially during strawberry season. Great coffee too.",
+              "link": "https://www.timeout.com/tokyo/restaurants/massif",
+              "lat": 35.6512,
+              "lng": 139.6850,
+              "tags": []
+            },
+            {
               "name": "Comme'N TOKYO",
               "category": "restaurants",
               "area": "Azabudai Hills",
