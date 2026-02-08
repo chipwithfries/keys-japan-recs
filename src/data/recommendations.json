@@ -27,6 +27,26 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Pizza Studio Tamaki (PST)",
+              "category": "restaurants",
+              "area": "Roppongi / Higashi-Azabu",
+              "description": "One of Tokyo's most highly regarded pizzerias. Neapolitan-style with impeccable technique. Locations in Roppongi and Higashi-Azabu.",
+              "link": "http://pst-tk2-ad.com/",
+              "lat": 35.6622,
+              "lng": 139.7327,
+              "tags": []
+            },
+            {
+              "name": "Savoy",
+              "category": "restaurants",
+              "area": "Azabu-Juban",
+              "description": "Legendary Neapolitan pizza — margherita and marinara done to perfection. The main location rarely has a huge wait if you show up ~30min early. Their second spot down the street (Savoy Tomato & Cheese) almost never has a wait at opening.",
+              "link": null,
+              "lat": 35.6555,
+              "lng": 139.7370,
+              "tags": []
+            },
+            {
               "name": "KNOCK Cucina Buona Italiana",
               "category": "restaurants",
               "area": "Roppongi (Hills and Midtown locations)",
