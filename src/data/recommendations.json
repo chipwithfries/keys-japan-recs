@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Sobamae Yamato (蕎麦前 山都)",
+              "category": "restaurants",
+              "area": "Roppongi Hills, Keyakizaka-Dori",
+              "description": "Elegant soba spot on the first floor of Roppongi Hills. Handmade buckwheat noodles in a refined open-kitchen setting. Great for a proper soba-mae experience (appetizers + soba).",
+              "link": "https://www.roppongihills.com/sp/dining/restaurant/sobamae_yamato/",
+              "lat": 35.6602,
+              "lng": 139.7292,
+              "tags": []
+            },
+            {
               "name": "Shin Udon (慎)",
               "category": "restaurants",
               "area": "Yoyogi, Shinjuku",
