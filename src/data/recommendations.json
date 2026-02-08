@@ -1,3 +1,24 @@
 {
-  "regions": []
+  "regions": [
+    {
+      "name": "Kanto",
+      "cities": [
+        {
+          "name": "Tokyo",
+          "recommendations": [
+            {
+              "name": "Seito Masamune Tantanmen Tsujita",
+              "category": "restaurants",
+              "area": "Ogawamachi, Kanda",
+              "description": "Authentic Chengdu-style tantanmen by Tsujita (of tsukemen fame). Rich sesame broth, serious spice levels. Counter seating — the classic ramen experience.",
+              "link": "https://tabelog.com/en/tokyo/A1310/A131002/13197898/",
+              "lat": 35.6953,
+              "lng": 139.7631,
+              "tags": ["counter seating"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
