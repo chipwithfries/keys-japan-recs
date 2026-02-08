@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Bricolage Bread & Co.",
+              "category": "restaurants",
+              "area": "Roppongi Hills, Keyakizaka Terrace",
+              "description": "Bakery-café collaboration between a chef, baker, and coffee roaster. Incredible artisan bread and pastries in a beautiful space. An oasis in Roppongi.",
+              "link": "https://bricolagebread.com/en.html",
+              "lat": 35.6598,
+              "lng": 139.7290,
+              "tags": ["veg options"]
+            },
+            {
               "name": "Massif",
               "category": "restaurants",
               "area": "Ikejiri-Ohashi",
