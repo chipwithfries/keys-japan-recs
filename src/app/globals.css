@@ -321,6 +321,98 @@ footer .divider {
   font-size: 0.8rem;
 }
 
+/* Tag filters */
+.tag-filters {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding: 0 24px 28px;
+  flex-wrap: wrap;
+}
+
+.tag-pill {
+  background: none;
+  border: 1px solid var(--border);
+  padding: 5px 14px;
+  border-radius: 100px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  color: var(--text-light);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tag-pill:hover {
+  border-color: var(--text-light);
+  color: var(--text);
+}
+
+.tag-pill.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
+
+.tag-pill.tag-clear {
+  border-style: dashed;
+  color: var(--text-lighter);
+  font-size: 0.7rem;
+}
+
+.tag-pill.tag-clear:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Rec tags */
+.rec-tags {
+  display: flex;
+  gap: 5px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.rec-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  letter-spacing: 0.03em;
+  padding: 2px 8px;
+  border-radius: 100px;
+  background: var(--border-light);
+  color: var(--text-lighter);
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 80px 24px;
+  color: var(--text-light);
+}
+
+.empty-state .empty-icon {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+.empty-state h2 {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.empty-state p {
+  font-size: 0.9rem;
+  color: var(--text-lighter);
+}
+
+.empty-state.small {
+  padding: 48px 24px;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   h1 { font-size: 1.8rem; }

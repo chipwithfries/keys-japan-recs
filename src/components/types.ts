@@ -7,4 +7,5 @@ export interface Recommendation {
   lat?: number
   lng?: number
   city?: string
+  tags?: string[]
 }
