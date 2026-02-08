@@ -11,28 +11,36 @@
               "category": "restaurants",
               "area": "Ebisu",
               "description": "Light, yuzu-flavored ramen in a sleek modern setting. Perfect introduction to Tokyo ramen.",
-              "link": "https://afuri.com"
+              "link": "https://afuri.com",
+              "lat": 35.6468,
+              "lng": 139.7102
             },
             {
               "name": "Gen Yamamoto",
               "category": "bars",
               "area": "Azabu-Juban",
               "description": "Omakase cocktail bar with seasonal Japanese ingredients. Intimate 8-seat counter.",
-              "link": null
+              "link": null,
+              "lat": 35.6543,
+              "lng": 139.7367
             },
             {
               "name": "TeamLab Borderless",
               "category": "activities",
               "area": "Azabudai Hills",
               "description": "Immersive digital art museum. Book tickets in advance — sells out fast.",
-              "link": "https://www.teamlab.art/e/borderless-azabudai/"
+              "link": "https://www.teamlab.art/e/borderless-azabudai/",
+              "lat": 35.6604,
+              "lng": 139.7312
             },
             {
               "name": "Shimokitazawa Vintage Shops",
               "category": "shopping",
               "area": "Shimokitazawa",
               "description": "Wander the narrow streets for incredible vintage clothing, vinyl records, and quirky cafés.",
-              "link": null
+              "link": null,
+              "lat": 35.6614,
+              "lng": 139.6681
             },
             {
               "name": "Get a Suica card immediately",
@@ -60,7 +68,9 @@
               "category": "activities",
               "area": "Fushimi",
               "description": "Go at 5-6am to experience the thousand torii gates without crowds. Magical.",
-              "link": null
+              "link": null,
+              "lat": 34.9671,
+              "lng": 135.7727
             }
           ]
         },
@@ -72,7 +82,9 @@
               "category": "restaurants",
               "area": "Namba",
               "description": "Takoyaki, okonomiyaki, gyoza — just walk and eat. That's the whole plan.",
-              "link": null
+              "link": null,
+              "lat": 34.6687,
+              "lng": 135.5013
             }
           ]
         }

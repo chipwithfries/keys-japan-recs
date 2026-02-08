@@ -235,6 +235,92 @@ footer .divider {
   margin: 0 auto 16px;
 }
 
+/* View toggle */
+.view-divider {
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background: var(--border);
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
+.view-toggle {
+  font-size: 0.85rem !important;
+  padding: 4px 8px !important;
+}
+
+/* Map */
+.map-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 500px;
+}
+
+.map-loading {
+  text-align: center;
+  padding: 80px;
+  color: var(--text-lighter);
+  font-size: 0.85rem;
+}
+
+.custom-marker {
+  background: none !important;
+  border: none !important;
+}
+
+.map-pin {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  background: var(--bg-card);
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  box-shadow: var(--shadow-lg);
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+.map-pin:hover {
+  transform: scale(1.15);
+}
+
+.map-popup {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  max-width: 240px;
+}
+
+.map-popup strong {
+  display: block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+.map-popup .popup-area {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-lighter);
+  margin-bottom: 6px;
+}
+
+.map-popup p {
+  color: var(--text-light);
+  margin-bottom: 6px;
+}
+
+.map-popup a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   h1 { font-size: 1.8rem; }

@@ -1,7 +1,10 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, lazy, Suspense } from 'react'
 import data from '@/data/recommendations.json'
+import type { Recommendation } from '@/components/types'
+
+const MapView = lazy(() => import('@/components/MapView'))
 
 const categoryIcons: Record<string, string> = {
   restaurants: '🍜',
@@ -16,6 +19,7 @@ const categoryOrder = ['restaurants', 'bars', 'activities', 'shopping', 'tips']
 export default function Home() {
   const [activeRegion, setActiveRegion] = useState(data.regions[0]?.name ?? '')
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
+  const [view, setView] = useState<'list' | 'map'>('list')
 
   const region = data.regions.find(r => r.name === activeRegion)
 
@@ -28,6 +32,12 @@ export default function Home() {
       return { ...city, recommendations: recs }
     })
   }, [region, activeCategory])
+
+  const allFilteredRecs: Recommendation[] = useMemo(() => {
+    return filteredCities.flatMap(city =>
+      city.recommendations.map(r => ({ ...r, city: city.name } as Recommendation))
+    )
+  }, [filteredCities])
 
   return (
     <>
@@ -66,51 +76,74 @@ export default function Home() {
             {categoryIcons[cat]} {cat}
           </button>
         ))}
+
+        <span className="view-divider" />
+
+        <button
+          className={`view-toggle ${view === 'list' ? 'active' : ''}`}
+          onClick={() => setView('list')}
+          title="List view"
+        >
+          ☰
+        </button>
+        <button
+          className={`view-toggle ${view === 'map' ? 'active' : ''}`}
+          onClick={() => setView('map')}
+          title="Map view"
+        >
+          🗺️
+        </button>
       </div>
 
-      <main className="container">
-        {filteredCities.map(city => (
-          <section key={city.name} className="city-section">
-            <h2 className="city-name">{city.name}</h2>
-            {city.recommendations.length === 0 ? (
-              <p className="city-empty">Recommendations coming soon…</p>
-            ) : (
-              <>
-                {categoryOrder
-                  .filter(cat => city.recommendations.some(r => r.category === cat))
-                  .map(cat => (
-                    <div key={cat}>
-                      {!activeCategory && (
-                        <div className="category-label">
-                          {categoryIcons[cat]} {cat}
-                        </div>
-                      )}
-                      {city.recommendations
-                        .filter(r => r.category === cat)
-                        .map((rec, i) => (
-                          <div key={i} className="rec-card">
-                            <div className="rec-header">
-                              <span className="rec-name">
-                                {rec.link ? (
-                                  <a href={rec.link} target="_blank" rel="noopener noreferrer">
-                                    {rec.name}
-                                  </a>
-                                ) : (
-                                  rec.name
-                                )}
-                              </span>
-                              {rec.area && <span className="rec-area">{rec.area}</span>}
-                            </div>
-                            <p className="rec-desc">{rec.description}</p>
+      {view === 'map' ? (
+        <Suspense fallback={<div className="map-loading">Loading map…</div>}>
+          <MapView recommendations={allFilteredRecs} />
+        </Suspense>
+      ) : (
+        <main className="container">
+          {filteredCities.map(city => (
+            <section key={city.name} className="city-section">
+              <h2 className="city-name">{city.name}</h2>
+              {city.recommendations.length === 0 ? (
+                <p className="city-empty">Recommendations coming soon…</p>
+              ) : (
+                <>
+                  {categoryOrder
+                    .filter(cat => city.recommendations.some(r => r.category === cat))
+                    .map(cat => (
+                      <div key={cat}>
+                        {!activeCategory && (
+                          <div className="category-label">
+                            {categoryIcons[cat]} {cat}
                           </div>
-                        ))}
-                    </div>
-                  ))}
-              </>
-            )}
-          </section>
-        ))}
-      </main>
+                        )}
+                        {city.recommendations
+                          .filter(r => r.category === cat)
+                          .map((rec, i) => (
+                            <div key={i} className="rec-card">
+                              <div className="rec-header">
+                                <span className="rec-name">
+                                  {rec.link ? (
+                                    <a href={rec.link} target="_blank" rel="noopener noreferrer">
+                                      {rec.name}
+                                    </a>
+                                  ) : (
+                                    rec.name
+                                  )}
+                                </span>
+                                {rec.area && <span className="rec-area">{rec.area}</span>}
+                              </div>
+                              <p className="rec-desc">{rec.description}</p>
+                            </div>
+                          ))}
+                      </div>
+                    ))}
+                </>
+              )}
+            </section>
+          ))}
+        </main>
+      )}
 
       <footer>
         <div className="divider" />
