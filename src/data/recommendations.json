@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Comme'N TOKYO",
+              "category": "restaurants",
+              "area": "Azabudai Hills",
+              "description": "World-class bakery by Shuichi Osawa — first Japanese winner of the Mondial du Pain international bread competition. Incredible pastries and bread. Also has a Comme'N KIDS next door. Expect a line, signs in Japanese only.",
+              "link": null,
+              "lat": 35.6590,
+              "lng": 139.7380,
+              "tags": ["family friendly"]
+            },
+            {
               "name": "Nogami (乃が美)",
               "category": "restaurants",
               "area": "Azabu-Juban",
