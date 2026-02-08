@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Aldebaran",
+              "category": "restaurants",
+              "area": "Azabu-Juban",
+              "description": "Widely considered the best burger in Japan. Thick wagyu patty cooked to perfect medium rare. Hamburger shop by day, bar by night. Small and intimate — feels like family.",
+              "link": "https://tabelog.com/en/tokyo/A1307/A130702/13278678/",
+              "lat": 35.6549,
+              "lng": 139.7370,
+              "tags": ["counter seating"]
+            },
+            {
               "name": "Maisen (まい泉)",
               "category": "restaurants",
               "area": "Omotesando, Jingumae",
