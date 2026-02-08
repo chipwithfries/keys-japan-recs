@@ -27,6 +27,16 @@
               "tags": ["counter seating"]
             },
             {
+              "name": "Mont Thabor",
+              "category": "restaurants",
+              "area": "Azabu-Juban",
+              "description": "Famous for their award-winning Hokkaido milk bread — pillowy, sweet, incredible aroma. French-style bakery with great curry bread, scones, and pastries too. A must-visit.",
+              "link": null,
+              "lat": 35.6548,
+              "lng": 139.7368,
+              "tags": ["veg options"]
+            },
+            {
               "name": "Pizza Studio Tamaki (PST)",
               "category": "restaurants",
               "area": "Roppongi / Higashi-Azabu",
